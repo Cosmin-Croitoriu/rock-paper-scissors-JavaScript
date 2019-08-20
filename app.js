@@ -16,8 +16,12 @@ function getComputerChoice() {
 
 function game(userChoice) {
   const computerChoice = getComputerChoice();
-  if(userChoice == computerChoice) {
-    console.log("it's a draw");
+  if(userChoice + computerChoice === ("rs" || "sp" || "pr")) {
+    console.log("You win");
+  }else if(userChoice + computerChoice === ("rp" || "pr" || "sr")){
+    console.log("You lose!");
+  }else{
+    console.log("Draw!");
   }
 }
 
