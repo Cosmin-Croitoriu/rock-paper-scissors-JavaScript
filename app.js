@@ -10,18 +10,28 @@ const scissors_div = document.getElementById("s");
 
 function getComputerChoice() {
   const choices = ['r', 'p', 's'];
-  var randomComputerChoice = Math.floor(Math.random * 3);
+  var randomComputerChoice = Math.floor(Math.random() * 3);
   return choices[randomComputerChoice];
 }
 
 function game(userChoice) {
   const computerChoice = getComputerChoice();
-  if(userChoice + computerChoice === ("rs" || "sp" || "pr")) {
-    console.log("You win");
-  }else if(userChoice + computerChoice === ("rp" || "pr" || "sr")){
-    console.log("You lose!");
-  }else{
-    console.log("Draw!");
+  switch(userChoice + computerChoice) {
+    case 'rs':
+    case 'sp':
+    case 'pr':
+      console.log("You win!");
+      break;
+    case 'rp':
+    case 'ps':
+    case 'sr':
+      console.log("You lose!");
+      break;
+    case 'rr':
+    case 'ss':
+    case 'pp':
+      console.log("Draw!");
+      break;
   }
 }
 
