@@ -91,3 +91,19 @@ body {
   font-weight: bold;
   font-size: 30px;
 }
+
+.green-glow {
+  border: 5px solid #41F934;
+  box-shadow: 0 0 10px #398712; 
+
+}
+
+.red-glow {
+  border: 5px solid rgb(247, 9, 9);
+  box-shadow: 0 0 10px #690409;
+}
+
+.gray-glow {
+  border: 5px solid rgb(209, 206, 214);
+  box-shadow: 0 0 10px #3f3e3e;
+}

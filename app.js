@@ -25,6 +25,8 @@ function win(userChoice, computerChoice){
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
   result_div_p.innerHTML = changeNames(userChoice) + " beats " + changeNames(computerChoice) + ". You win!";
+  document.getElementById(userChoice).classList.add('green-glow');
+  setTimeout(function(){document.getElementById(userChoice).classList.remove('green-glow')}, 500);
 }
 
 function lose(userChoice, computerChoice){
@@ -32,10 +34,14 @@ function lose(userChoice, computerChoice){
   userScore_span.innerHTML = userScore;
   computerScore_span.innerHTML = computerScore;
   result_div_p.innerHTML = changeNames(userChoice) + " is beaten by " + changeNames(computerChoice) + ". You lose!";
+  document.getElementById(userChoice).classList.add('red-glow');
+  setTimeout(function(){document.getElementById(userChoice).classList.remove('red-glow')}, 500);
 }
 
 function draw(userChoice, computerChoice){
   result_div_p.innerHTML = changeNames(userChoice) + " is equal with " + changeNames(computerChoice) + ". It's a Draw!";
+  document.getElementById(userChoice).classList.add('gray-glow');
+  setTimeout(function(){document.getElementById(userChoice).classList.remove('gray-glow')}, 500);
 }
 
 function game(userChoice) {
