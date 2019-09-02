@@ -12,11 +12,11 @@ I started by creating the Html elements needed. I found and downloaded the appro
 #### JavaScript
  
  - I, initially, declared and assigned, without Jquery, all the element classes and ids from the index page. 
- - Afterword I have created 3 methods, for each buttopn to test with 'console.log' if clicking the buttons will work, 
+ - Afterwords, I have created 3 methods, for each buttopn to test with 'console.log' if clicking the buttons will work, 
    then I incorporated all 3 into a 'main' function, 
    and instead of console.log, to call a 'game' function that will have as an argument the button that has been pressed as a string( 'r', 'p', 's'). 
  - In a separate function I have created the computer random selection.
- - Although I started with caching the DOM by using constants, I have changed the variables for userScore and computerScore into "var" in order to implement the incrementing of the score.
+ - Although I started with caching the DOM by using constants, I have changed the declaration for userScore and computerScore into "var" in order to implement the incrementing of the score.
  - I also created a function that will convert my letters ('r', 'p', 's') from the string array into 'Rock', 'Paper', 'Scissors' to be displayed on the page trough the 'result > p' div
  - I added on click(userChoice) a CSS glow to easier differentiate when the user wins, loses or it's a tie, which is removed (setTimeOut) after 500ms.
 
