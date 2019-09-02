@@ -1,8 +1,7 @@
 ## Rock Paper Scissors - JavaScript
 
-
 I am trying trough this project to refresh my knowledge of Vanilla Javascript, by doing something fun.
-
+ The idea of the game is to have an interactive web page in which the user will play 'Rock Paper Scissors' against a computer, by clicking one of the 3 given options, the computer will select a random option as well; both results will be compared; a message will be displayed (if you lose or win) and a form of score will be kept. I will try later on to addapt it for player vs player, by hosting it on a web page and connecting 2 players to play remotely.
 #### HTML elements and CSS styling
 
 
