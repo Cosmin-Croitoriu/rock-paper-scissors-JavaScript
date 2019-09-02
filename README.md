@@ -21,5 +21,5 @@ I started by creating the Html elements needed. I found and downloaded the appro
  - I added on click(userChoice) a CSS glow to easier differentiate when the user wins, loses or it's a tie, which is removed (setTimeOut) after 500ms.
 
 
- The single page web app, for now, is built using HTML, CSS and Vanilla JavaScript ES5 without any framework following a guid from FreeCodeCamp
+ The single page web app, for now, is built using HTML, CSS and Vanilla JavaScript ES5 without any framework following a guid from FreeCodeCamp.
 
