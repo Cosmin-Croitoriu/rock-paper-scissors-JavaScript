@@ -1,3 +1,4 @@
+<p align="center"><img src="./images/RPS.png" alt="portrait" width="250"/></p>
 ## Rock Paper Scissors - JavaScript
 
 I am trying trough this project to refresh my knowledge of Vanilla Javascript, by doing something fun.
